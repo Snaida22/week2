@@ -26,10 +26,17 @@ header>div>.big-header {
     margin: 20px;
     color: #FFAC12;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 80px;
 }
 header>div>.para-header {
     margin: 20px;
-    font-size: 20px;
+    font-size: 60px;
+    margin: 20px;
+    padding: 100px;
+    color: whitesmoke;
+}
+.sect2>.movers>{
+    align-items: center;
+    padding: 80px;
 }
 
