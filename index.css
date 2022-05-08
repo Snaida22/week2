@@ -11,10 +11,9 @@ header ul a {
     color: whitesmoke;
     text-decoration: none;
 }
-header ul li {
+ul {
      display: flex;
-     align-items: flex-end;
-     position: relative;
+     list-style: none;
      float: right;
 }
 header {
