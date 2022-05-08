@@ -24,6 +24,9 @@ To get services, you need to:
 * HTML - which was used to develop the structure off the pages.
 * CSS - which was used to style the User Interface and the page.
 
+## View live
+https://snaida22.github.io/week2/
+
 ## Licence
 MIT License
 Copyright (c) [2022] [Snaida Kabalika]
