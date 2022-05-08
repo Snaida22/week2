@@ -42,10 +42,13 @@ header>div>.para-header {
 }
 .sect2>.para {
     font-size: 40px;
-    padding-left: 120px;
+    padding-left: 150px;
 }
+.sect2>.para>.para1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 600;
     
 }
-
-}
+    
 
