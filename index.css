@@ -13,13 +13,17 @@ header ul {
 header {
     background-image: url("./images/moving\ 1.png");
     background-size: cover;
-    height: 60vh;
+    height: 100vh;
 }
 header>div>.big-header {
     padding: 100px;
     margin: 20px;
-    font-size: larger;
     color: #FFAC12;
     font-weight: bolder;
-    font-stretch: extra-expanded;
+    font-size: 40px;
 }
+header>div>.para-header {
+    margin: 20px;
+    font-size: 20px;
+}
+
