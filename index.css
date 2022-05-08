@@ -28,7 +28,7 @@ header {
 header>div>.big-header {
     padding: 100px;
     margin: 20px;
-    color: #FFAC12;
+    color: #FAFF00;
     font-weight: bolder;
     font-size: 80px;
 }
@@ -205,8 +205,11 @@ html, body {
     overflow-x: hidden;
 }
 .button1 {
-    background-color: #FFAC12;
+    background-color: #FAFF00;
     color: black;
     padding: 6px 12px;
 }
-.button2 
+.button2 {
+    background-color: black;
+    color: #FFAC12;
+}
