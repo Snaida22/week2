@@ -35,8 +35,17 @@ header>div>.para-header {
     padding: 100px;
     color: whitesmoke;
 }
-.sect2>.movers>{
+.sect2 {
+    display: flex;
     align-items: center;
-    padding: 80px;
+    margin-top: 80px;
+}
+.sect2>.para {
+    font-size: 40px;
+    padding-left: 120px;
+}
+    
+}
+
 }
 
