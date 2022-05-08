@@ -79,17 +79,92 @@ span {
     padding-left: 2vw;
 }
 
-.footer-style{
+.top-movers{
+    background-color: #f3f0ed;
+    padding: 10vw;
+    font-family: 'Adamina', serif;
+}
+
+.top-line {
+    margin-bottom: 1vw;
+    width: 12vw;
+    height: .3vw;
+    background-image: linear-gradient(to right, #FFAC12, black) ;
+    border-radius: 2vw;
+}
+
+.top-movers .top-movers-header{
+    font-size: 4vw;
+}
+
+.images-sec {
+    position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-top: 10vw;
+}
+
+
+.two {
+    margin-top: 3vh;
+}
+
+.movers-images1 {
+    background-color: white;
+    width: 25vw;
+    border-radius: 3vh;
+}   
+
+.movers-images1 img{
+    width: 25vw;
+    height: auto;
+}
+
+.movers-images1 .img-caption{
+    font-size: 2vw;
+    padding: 1.5vw;
+}
+
+.movers-images1 .image-icons {
+    border-top: 1px solid #dbdad8;
+    display: flex;
+}
+
+.image-icons p {
+    font-size: 1.5vw;
+    padding: 1.5vw;
+    text-align: center;
+}
+.image-icons div{
+    min-width: 33.3%;
+}
+.image-icons div:nth-child(1) {
+    border-right: 1px solid #dbdad8;
+}
+
+.image-icons div:nth-child(3) {
+    border-left: 1px solid #dbdad8;
+}
+
+footer {
+    width: 100%;
+    max-height: 90vh;
+    background-color: black;
+    color: white;
+    padding: 0 10vw;
+    font-family: 'Actor', sans-serif;
+}
+.footer-header p{
     font-size: 3vw;
     padding: 6vw 0 4vw;
     border-bottom: 1px solid #5c5b5a;
 }
 
+span {
+    color: #FAFF00;
+}
 
-.footer-content {
+.footer-body {
     padding: 4vw 0 7vw;
     display: flex;
 }
@@ -123,5 +198,4 @@ span {
     color: #fff;
     font-size: 1.2vw;
 
-}   
-
+}
