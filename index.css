@@ -8,4 +8,18 @@ header ul {
     float: right;
     margin-right: 100px;
     gap: 15px;
+    
+}
+header {
+    background-image: url("./images/moving\ 1.png");
+    background-size: cover;
+    height: 60vh;
+}
+header>div>.big-header {
+    padding: 100px;
+    margin: 20px;
+    font-size: larger;
+    color: #FFAC12;
+    font-weight: bolder;
+    font-stretch: extra-expanded;
 }
