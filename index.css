@@ -48,7 +48,14 @@ header>div>.para-header {
     margin-bottom: 10px;
     font-size: 50px;
     font-weight: 600;
-    
+}
+.sect2>.para>button {
+    font-size: 30px;
+    padding: 25px;
+    background-color: black;
+    border: 1px solid black;
+    color: gold;
+    margin-top: 50px;
 }
     
 
