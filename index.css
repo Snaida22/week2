@@ -39,28 +39,61 @@ header>div>.para-header {
     padding: 100px;
     color: whitesmoke;
 }
-.sect2 {
+.line-top {
+    border-radius: 2vw;
+    margin-bottom: 1vw;
+    width: 14vw;
+    height: 0.3vw;
+    background-image: linear-gradient(to right, #FFAC12, rgba(0, 0, 0, 0.842)) ;
+}
+.cut-hustle {
+    margin: 3vw 0 2vw;
     display: flex;
+    justify-content: space-between;
+
+}
+
+.hustle-image {
+    width: 43%;
+}
+
+.hustle-image img{
+    width: 100%;
+    height: auto;
+}
+
+.hustle-content {
+    display: flex;
+    width: 45%;
     align-items: center;
-    margin-top: 80px;
 }
-.sect2>.para {
-    font-size: 40px;
-    padding-left: 150px;
+
+.hustle-content .hustleP1{
+    font-size: 4vw;
+    padding: 1vw 0;
+    font-family: 'Adamina', serif;
+
 }
-.sect2>.para>.para1 {
-    margin-bottom: 10px;
-    font-size: 50px;
-    font-weight: 600;
+
+.hustle-content .hustleP2 {
+    font-size: 2vw;
+    font-family: 'Poppins', sans-serif;
+    color: #887f7f;
 }
-.sect2>.para>button {
-    font-size: 30px;
-    padding: 25px;
-    background-color: black;
-    border: 1px solid black;
-    color: gold;
-    margin-top: 50px;
-    border-top-left-radius: 3px;
+
+
+
+.hustle-content i{
+    margin-left: 2vw;
+}
+.hustle-content button {
+    margin-top: 7vw;
+    padding: 2vw 3vw;
+    border-top-right-radius: 2vw;
+    border: none;
+    background-color:black;
+    color: #FFAC12;
+    font-size: 2vw;
 }
 .sect3 {
     display: flex;
@@ -129,6 +162,10 @@ span {
 .movers-images1 .image-icons {
     border-top: 1px solid #dbdad8;
     display: flex;
+}
+.movers img{
+    height: 50%;
+    width: 40%;
 }
 
 .image-icons p {
